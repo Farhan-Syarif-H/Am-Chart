@@ -10,7 +10,9 @@ function App() {
 
   return (
     <>
+    <div>
       <Chart paddingRight={20} />
+    </div>
 
       {/* <LineChart /> */}
     </>
