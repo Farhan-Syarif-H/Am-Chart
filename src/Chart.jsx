@@ -130,7 +130,7 @@ function Chart(props) {
         };
     }, []);
 
-    // When the paddingRight prop changes it will update the chart
+    
     useLayoutEffect(() => {
         chartRef.current.set("paddingRight", props.paddingRight);
     }, [props.paddingRight]);
